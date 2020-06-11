@@ -1,0 +1,232 @@
+/* Mobile View*/
+@media screen and (max-width: 1200px) {
+    .pictureItem {
+        width: 100%;
+        height: auto;
+    }
+    .header {
+        height:0px;
+        /*background-image: url("../pictures/bathtub.jpg");*/
+        background-size:cover;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        background-color: #161618;
+    }
+
+    .slogan-bottom {
+        font-size: 150%;
+        font-weight: bold;
+    }
+
+    .header-brand {
+        margin-left:5px;
+        float:left;
+        color: black;
+        font-size: 100%;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 0px 0px 1px white;
+        padding-top:8px;
+    }  
+
+    .header-navbar-links{
+        color:white;
+        float:right;
+        margin-top: 37px; 
+        display: none;
+        width: 100%;
+        margin-bottom: 37px;
+        border-bottom: solid 1px white;
+    }
+
+    .iconBath {
+        padding-left: 5px;
+    }
+
+    .header_button {
+        margin-top: 36px;
+        line-height: 38px;
+        float: right;
+        display: inline-block;
+    }
+
+    .buttonToogle {
+        color: white;
+        font-size: 15px;
+        width: 247px;
+    }
+
+    .headline_badewannenIn{
+        margin-top: 0;
+        margin-bottom: 13px;
+    }   
+}
+
+/* Desktop/Tablet View*/
+@media screen and (min-width: 1200px) {
+    .pictureItem {
+        width: 100%;
+        height: auto;
+    }
+
+    .header {
+        height:0px;
+        /*background-image: url("../pictures/bathtub.jpg");*/
+        background-size:cover;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        background-color: #161618;
+    }
+
+    .slogan-bottom {
+        font-size: 300%;
+        font-weight: bold;
+    }
+
+    .header-brand {
+        float:left;
+        margin-left:5px;
+        color: black;
+        font-size: 150%;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 0px 0px 1px white;
+    }  
+
+    .header-navbar-links{
+        color:black;
+        float:right;
+        margin-top:44px;
+        display: inline-block !important;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    .headline_badewannenIn{
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+}
+
+.header_all {
+    margin-top:-30px;
+    display: block;
+    height:80px;
+    background: white;
+}
+
+.header-brand-wrapper {
+    margin-top:36px;
+    float:left;
+}
+
+.header-brand-wrapper img {
+    float:left;
+}
+
+.iconBrand {
+    color:white;
+    text-align: left;
+    
+}
+
+.header-navbar-links li{
+    float:left;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 15px;
+    text-shadow: 0px 0px 2px black;
+
+}
+
+
+body{
+    background-color: #161618;
+    margin:0px;
+}
+
+.containerBody {
+    font-size: 20px;
+    background-color: #969696;
+    width: 600px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7e7c7c
+}
+
+.calcutorTop {
+    margin-top:80px;
+    padding-bottom: 1px;
+    color:white;
+    background-color: #161618;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+.calcutorTop h2 {
+    line-height: 1;
+    text-align: left;
+}
+
+
+.header_navbar_black {
+    text-decoration: none;
+    color: black;
+    margin-top: 47px;
+    margin-right:5px;
+    float:right;
+    font-size: 100%;
+}
+
+.header_navbar_black a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px 0px 1px white;
+}
+
+.toggle {
+    display: none;
+}
+
+.firstRow {
+    display: none;
+}
+
+div .leftmargin{
+    margin-left: 0;
+}
+
+div .rightmargin{
+    margin-right: 40px;
+}
+
+#circle {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-table;
+    margin-left: 30px;
+}
+.fade-in {
+	animation-name: fadeIn;
+	animation-duration: 1.3s;
+	animation-timing-function: cubic-bezier(0, 0, 0.4, 1);
+	animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  from {
+	opacity: 0;
+  }
+  to {
+	opacity: 1;
+  }
